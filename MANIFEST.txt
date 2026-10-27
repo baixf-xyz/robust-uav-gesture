@@ -1,0 +1,62 @@
+ROBUST UAV GESTURE REPOSITORY PACKAGE
+============================================================
+
+Copied source/results: 43
+Missing optional files: 0
+
+Included files:
+  .gitignore
+  README.md
+  data/README.md
+  environment_backup.txt
+  figures/class_recall_clean.png
+  figures/class_recall_random_arm.png
+  figures/class_recovery_left_arm.png
+  figures/class_recovery_random_arm.png
+  figures/class_recovery_right_arm.png
+  figures/confusion_baseline_random_arm.png
+  figures/confusion_limb_aug_random_arm.png
+  figures/confusion_reduction_left_arm.png
+  figures/confusion_reduction_random_arm.png
+  figures/confusion_reduction_right_arm.png
+  figures/left_accuracy.png
+  figures/left_f1.png
+  figures/random_accuracy.png
+  figures/random_f1.png
+  figures/right_accuracy.png
+  figures/right_f1.png
+  requirements.txt
+  results/classwise_aggregate.csv
+  results/classwise_recovery_ranked.csv
+  results/confusion_pairs_ranked.csv
+  results/core_multisplit_aggregate.csv
+  results/core_multisplit_raw.csv
+  results/paired_sample_summary.csv
+  results/structured_vs_random_aggregate.csv
+  results/structured_vs_random_aggregate_fixed.csv
+  results/structured_vs_random_raw.csv
+  results/temporal_occlusion_eval.csv
+  results/temporal_occlusion_eval_aggregate.csv
+  src/make_occlusion_figures.py
+  src/robustness_test.py
+  src/robustness_test_v2.py
+  src/run_classwise_occlusion_analysis.py
+  src/run_confusion_repair_analysis.py
+  src/run_core_multisplit.py
+  src/run_limb_tradeoff_sweep.py
+  src/run_structured_vs_random_ablation.py
+  src/run_temporal_occlusion_eval.py
+  src/run_uav_ablation.py
+  src/summarize_structured_vs_random_fixed.py
+  src/uav_gesture_baseline_temporal_crop.py
+  src/uav_gesture_limb_robust.py
+  src/uav_gesture_stgcn.py
+  src/uav_gesture_stgcn_v2.py
+
+Excluded by design:
+  data/UAV/
+  data/raw/
+  *.pt
+  *.pth
+  raw videos
+  full outputs/

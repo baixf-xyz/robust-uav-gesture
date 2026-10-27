@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+
+# Dataset / media
+data/UAV/
+data/raw/
+data/annotations/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.mat
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large/raw experiment outputs
+outputs/
+
+# Logs
+*.log
+nohup.out
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.*
+secrets.*

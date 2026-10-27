@@ -1,0 +1,5 @@
+numpy
+torch==2.1.2
+matplotlib
+scikit-learn
+tqdm
